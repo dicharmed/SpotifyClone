@@ -15,9 +15,6 @@ export class Track {
     artist: string;
 
     @Prop()
-    track: string;
-
-    @Prop()
     picture: string;
 
     @Prop()

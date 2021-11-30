@@ -3,7 +3,7 @@ import {NestFactory} from "@nestjs/core";
 
 const start = async () => {
     try{
-        const PORT = process.env.port || 5000
+        const PORT = process.env.port || 5050
         const app = await NestFactory.create(AppModule)
         await app.listen(PORT, () => console.log(`Sever started at port: ${PORT}`))
     }catch(e) {
